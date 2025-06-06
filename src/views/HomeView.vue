@@ -2,6 +2,7 @@
     import TheWelcome from '../components/TheWelcome.vue'
     import TheContacts from '../components/TheContacts.vue'
     import TheHeader from '../components/TheHeader.vue'
+    import TheFooter from '../components/TheFooter.vue'
 </script>
 
 <template>
@@ -10,5 +11,6 @@
         <TheHeader/>
         <TheWelcome />
         <TheContacts />
+        <TheFooter/>
     </main>
 </template>
