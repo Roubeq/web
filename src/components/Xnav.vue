@@ -1,21 +1,22 @@
 <template>
     <header class="app-header">
         <div class="header-container">
-            <div class="logo">Cup of Joy</div>
+            <h1 class="logo">
+                <router-link class="link" to="/">Чашка Радости</router-link>
+            </h1>
             <nav class="navigation">
-                <router-link to="/" class="nav-link">Main</router-link>
-                <router-link to="/catalog" class="nav-link">Catalog</router-link>
-                <router-link to="/orders" class="nav-link">About shop</router-link>
+                <router-link to="/catalog" class="nav-link">Каталог</router-link>
+                <router-link to="/info" class="nav-link">О магазине</router-link>
             </nav>
-            
+
         </div>
     </header>
 </template>
 
 <script>
-export default {
-  name: 'AppHeader'
-}
+    export default {
+        name: 'AppHeader'
+    }
 </script>
 
 <style scoped>
@@ -80,7 +81,6 @@ export default {
         position: absolute;
         top: -5px;
         right: -5px;
-       
         color: white;
         border-radius: 50%;
         width: 18px;
@@ -89,6 +89,12 @@ export default {
         align-items: center;
         justify-content: center;
         font-size: 12px;
+    }
+    .link {
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+        color: #2c3e50;
     }
 
     @media (max-width: 768px) {
