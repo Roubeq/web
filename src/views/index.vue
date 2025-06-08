@@ -8,7 +8,7 @@
     <img src="@/views/assets/kryjki.png" alt="Кружки" class="hero-image">
     <div class="hero-text">
       <h2>Чашка Радости</h2>
-      <a href="/catalog" class="btn">Перейти в каталог</a>
+      <router-link to="/catalog" class="btn">Перейти в каталог</router-link>
     </div>
   </section>
 

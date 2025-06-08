@@ -2,7 +2,7 @@
     <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-brand">
-                <h3 class="footer-title">Contact us</h3>
+                <h3 class="footer-title">Свяжитесь с нами</h3>
                 <p class="footer-email">shop@cupofjoy.ru</p>
             </div>
 
@@ -10,7 +10,7 @@
                 <a href="#" class="social-link" target="_blank" rel="noopener noreferrer">
                     <img src="@/assets/social-icon.svg" alt="Instagram" class="social-icon">
                 </a>
-                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://vk.com/roubeq" class="social-link" target="_blank" rel="noopener noreferrer">
                     <img src="@/assets/vk.svg" alt="VK" class="social-icon">
                 </a>
                 <a href="#" class="social-link" target="_blank" rel="noopener noreferrer">
@@ -19,12 +19,15 @@
             </div>
         </div>
     </footer>
+
+
 </template>
 
 <script>
     export default {
         name: 'AppFooter'
     }
+
 </script>
 
 <style scoped>
