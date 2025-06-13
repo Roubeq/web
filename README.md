@@ -1,4 +1,4 @@
-# Название проекта
+# A Cup Of Joy
 
 ![Vue](https://img.shields.io/badge/Vue-3-4FC08D?logo=vuedotjs&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-4-646CFF?logo=vite&logoColor=white)
